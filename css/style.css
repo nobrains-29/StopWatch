@@ -1,0 +1,43 @@
+body{
+    background: url("../img/paris.1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #000000a4;
+    
+}
+
+#heading1{
+    color: #ff0000;
+    text-shadow: 0px 0px 8px #2b00ff;
+    font-size: 200%;
+    font-family: 'Permanent Marker', cursive;
+    
+}
+
+#heading2{
+    font-size: 150%;
+    font-weight: 700;
+    color: #111111;
+    font-family: 'Permanent Marker', cursive;
+
+}
+
+.jumbotron{
+    height: 50vh;
+    /* width: 60%; */
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(5px);
+    color: #000000;
+}
+
+#seconds, #tens, #colon{
+    font-size: 250%;
+    font-weight: 600;
+}
+
+.down{
+    font-size: 130%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+
