@@ -17,11 +17,11 @@
         </div>
         <div class="row mt-5">
             <div class="jumbotron m-auto text-center col-12 col-sm-8 col-md-5 col-lg-4">
-                <p><span id="seconds">00</span><span id="colon">:</span><span id="tens">00</span> </p>
+                <p><span id="minutes">00</span><span id="colon">:</span><span id="seconds">00</span><span id="colon">:</span><span id="mili">00</span> </p>
                 <div class="col-12">
-                    <button class="btn btn-lg btn-primary m-1">START</button>
-                    <button class="btn btn-lg btn-danger m-1">STOP</button>
-                    <button class="btn btn-lg btn-warning m-1">RESET</button>
+                    <button id="button_start" class="btn btn-lg btn-primary m-1">START</button>
+                    <button id="button_stop" class="btn btn-lg btn-danger m-1">STOP</button>
+                    <button id="button_reset" class="btn btn-lg btn-warning m-1">RESET</button>
                 </div>
             </div>
         </div>
@@ -38,7 +38,7 @@
             
         </div>
     </footer>
-   
+<script src="js/work.js"></script>   
 <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
 <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>   

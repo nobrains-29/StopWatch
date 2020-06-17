@@ -30,7 +30,7 @@ body{
     color: #000000;
 }
 
-#seconds, #tens, #colon{
+#minutes, #seconds, #mili, #colon{
     font-size: 250%;
     font-weight: 600;
 }
